@@ -1,0 +1,2 @@
+sudo docker build .
+sudo docker run -p 8080:80 -d 6e4af1e188dc
