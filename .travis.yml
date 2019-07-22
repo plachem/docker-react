@@ -7,7 +7,7 @@ before_install:
 
 script:
   - docker run plachem/docker-react npm run test -- --coverage
-
+before_deploy: "echo 'ready?'"
 deploy:
   provider: elasticbeanstalk
   region: "us-east-2"
